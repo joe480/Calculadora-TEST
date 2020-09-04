@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: com.com470.seleniumMercuryApp.SeleniumMercuryAppApplicationNGTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 41.787 sec <<< FAILURE! - in com.com470.seleniumMercuryApp.SeleniumMercuryAppApplicationNGTest
+testLogeoExitoso(com.com470.seleniumMercuryApp.SeleniumMercuryAppApplicationNGTest)  Time elapsed: 2.17 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='userName']"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JHU342G', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49846}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3ee22f225589b37a5d3a89670038dcd7
+*** Element info: {Using=name, value=userName}
+	at com.com470.seleniumMercuryApp.SeleniumMercuryAppApplicationNGTest.testLogeoExitoso(SeleniumMercuryAppApplicationNGTest.java:44)
+
+testLogeoFallido(com.com470.seleniumMercuryApp.SeleniumMercuryAppApplicationNGTest)  Time elapsed: 1.878 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='userName']"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JHU342G', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9387caade85d1213f29d713b7bd882fe
+*** Element info: {Using=name, value=userName}
+	at com.com470.seleniumMercuryApp.SeleniumMercuryAppApplicationNGTest.testLogeoFallido(SeleniumMercuryAppApplicationNGTest.java:35)
+
+setUpMethod(com.com470.seleniumMercuryApp.SeleniumMercuryAppApplicationNGTest)  Time elapsed: 15.863 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JHU342G', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x011DD383+3134339]
+	Ordinal0 [0x010CA171+2007409]
+	Ordinal0 [0x00F6AD90+568720]
+	Ordinal0 [0x00F61364+529252]
+	Ordinal0 [0x00F619FC+530940]
+	Ordinal0 [0x00F62C15+535573]
+	Ordinal0 [0x00F5DFC5+516037]
+	Ordinal0 [0x00F6BF70+573296]
+	Ordinal0 [0x00F11916+203030]
+	Ordinal0 [0x00F10C1D+199709]
+	Ordinal0 [0x00F0EB0B+191243]
+	Ordinal0 [0x00EF2E77+77431]
+	Ordinal0 [0x00EF3E3E+81470]
+	Ordinal0 [0x00EF3DC9+81353]
+	Ordinal0 [0x010E0CD9+2100441]
+	GetHandleVerifier [0x0134B75A+1396954]
+	GetHandleVerifier [0x0134B3D9+1396057]
+	GetHandleVerifier [0x01357126+1444518]
+	GetHandleVerifier [0x0134BCE8+1398376]
+	Ordinal0 [0x010D7F51+2064209]
+	Ordinal0 [0x010E22EB+2106091]
+	Ordinal0 [0x010E2411+2106385]
+	Ordinal0 [0x010F49C4+2181572]
+	BaseThreadInitThunk [0x753AF989+25]
+	RtlGetAppContainerNamedObjectPath [0x770D74A4+228]
+	RtlGetAppContainerNamedObjectPath [0x770D7474+180]
+
+	at com.com470.seleniumMercuryApp.SeleniumMercuryAppApplicationNGTest.setUpMethod(SeleniumMercuryAppApplicationNGTest.java:27)
+
