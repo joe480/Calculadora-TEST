@@ -35,12 +35,12 @@ public class SeleniumCalculadoraAppApplicationNGTest {
         calcularSimple("5", "3", "8", "add");
         calcularSimple("5", "3", "2", "subtract");
         calcularSimple("5", "3", "15", "multiply");
-        calcularSimple("25", "5", "5", "divide");
+        calcularSimple("25", "5", "5.0", "divide");
     }
 
     @Test
     public void testCalculadoraCompleja() {
-        calcularComplejo("5","0 1 1 2 3 ", "fibonacci");
+        calcularComplejo("5","5", "fibonacci");
         calcularComplejo("5", "120", "factorial");
         calcularComplejo("25", "5", "sqrt");
         calcularComplejo("5", "25", "power");

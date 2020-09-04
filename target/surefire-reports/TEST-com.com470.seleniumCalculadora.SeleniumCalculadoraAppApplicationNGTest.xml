@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.com470.seleniumCalculadora.SeleniumCalculadoraAppApplicationNGTest" time="28.945" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.com470.seleniumCalculadora.SeleniumCalculadoraAppApplicationNGTest" time="32.201" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
@@ -63,18 +63,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testCalculadoraCompleja" classname="com.com470.seleniumCalculadora.SeleniumCalculadoraAppApplicationNGTest" time="1.406">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at com.com470.seleniumCalculadora.SeleniumCalculadoraAppApplicationNGTest.calcularComplejo(SeleniumCalculadoraAppApplicationNGTest.java:63)
-	at com.com470.seleniumCalculadora.SeleniumCalculadoraAppApplicationNGTest.testCalculadoraCompleja(SeleniumCalculadoraAppApplicationNGTest.java:43)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3541
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-sep 03, 2020 9:52:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMACIÓN: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="testCalculadoraSimple" classname="com.com470.seleniumCalculadora.SeleniumCalculadoraAppApplicationNGTest" time="6.134"/>
+  <testcase name="testCalculadoraCompleja" classname="com.com470.seleniumCalculadora.SeleniumCalculadoraAppApplicationNGTest" time="5.394"/>
+  <testcase name="testCalculadoraSimple" classname="com.com470.seleniumCalculadora.SeleniumCalculadoraAppApplicationNGTest" time="6.03"/>
 </testsuite>
